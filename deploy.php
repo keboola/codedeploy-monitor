@@ -53,6 +53,7 @@ class DeployCommand extends \Symfony\Component\Console\Command\Command
         ]);
 
         $id = $deployment->get('deploymentId');
+        $output->writeln('DeploymentId: ' . $id);
 
         do {
             $deployment = $client->getDeployment(['deploymentId' => $id]);
