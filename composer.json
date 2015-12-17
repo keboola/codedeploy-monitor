@@ -1,0 +1,13 @@
+{
+    "name": "martinhalamicek/codedeploy-monitor",
+    "require": {
+        "symfony/console": "^3.0",
+        "aws/aws-sdk-php": "^3.11"
+    },
+    "authors": [
+        {
+            "name": "Martin Halamíček",
+            "email": "martin@halamicek.cz"
+        }
+    ]
+}
